@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.e("junyjiang", "----------------I am onCreate-------------------");
 		setContentView(R.layout.activity_main);
 		// 根据ID取得对应控件
 		EditText01 = (EditText) findViewById(R.id.EditText01);
@@ -38,10 +39,52 @@ public class MainActivity extends Activity {
 				// 使用intent调起NewActivity
 				intent.setClass(MainActivity.this, NewActivity.class);
 				startActivity(intent);
-				MainActivity.this.finish();
+//				MainActivity.this.finish();
 
 			}
 		});
+	}
+
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		Log.e("junyjiang", "----------------I am onStart-------------------");
+	}
+
+	@Override
+	protected void onRestart() {
+		// TODO Auto-generated method stub
+		Log.e("junyjiang", "----------------I am ReStart-------------------");
+		super.onRestart();
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		Log.e("junyjiang", "----------------I am onResume-------------------");
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		Log.e("junyjiang", "----------------I am onPause-------------------");
+	}
+
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+		Log.e("junyjiang", "----------------I am onStop-------------------");
+	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		Log.e("junyjiang", "----------------I am onDestroy-------------------");
 	}
 
 	@Override
