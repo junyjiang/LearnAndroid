@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.junyjiang.learning.NewActivity"/>
+        <activity android:name="com.junyjiang.learning.OtherActivity"/>
     </application>
 
 </manifest>

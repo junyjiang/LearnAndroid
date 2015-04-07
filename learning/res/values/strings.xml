@@ -7,5 +7,7 @@
     <string name="Click_Me">Click Me</string>
     <string name="exit">退出</string>
     <string name="abort">关于</string>
+    <string name="call_other">调起其他</string>
+    <string name="send">发送短信</string>
 
 </resources>
