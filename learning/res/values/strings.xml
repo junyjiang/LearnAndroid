@@ -5,9 +5,13 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="Click_Me">Click Me</string>
+    <string name="Start">"StartRadio"</string>
     <string name="exit">退出</string>
     <string name="abort">关于</string>
     <string name="call_other">调起其他</string>
     <string name="send">发送短信</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    
 
 </resources>
