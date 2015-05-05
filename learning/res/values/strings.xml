@@ -12,6 +12,9 @@
     <string name="send">发送短信</string>
     <string name="male">男</string>
     <string name="female">女</string>
+    <string name="swim">游泳</string>
+    <string name="run">跑步</string>
+    <string name="read">读书</string>
     
 
 </resources>
