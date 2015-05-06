@@ -1,7 +1,11 @@
 package com.junyjiang.learning;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
@@ -17,6 +21,7 @@ public class RadioTest extends Activity{
 	private CheckBox swimBox = null;
 	private CheckBox runBox = null;
 	private CheckBox readBox = null;
+	private Button startpro =null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -29,6 +34,16 @@ public class RadioTest extends Activity{
 		swimBox = (CheckBox)findViewById(R.id.swim);
 		runBox = (CheckBox)findViewById(R.id.run);
 		readBox = (CheckBox)findViewById(R.id.read);
+		startpro = (Button) findViewById(R.id.startPro);
+		startpro.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(RadioTest.this, ProgressBarTest.class);
+				startActivity(intent);
+			}
+		});
 		genderGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
 			@Override

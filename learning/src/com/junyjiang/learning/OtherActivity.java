@@ -19,6 +19,7 @@ public class OtherActivity extends Activity{
 		btSend = (Button) findViewById(R.id.btSend);
 		StartRadio =(Button)findViewById(R.id.startRadioActivity);
 		btSend.setText(R.string.send);
+		StartRadio.setText(R.string.radio);
 		btSend.setOnClickListener(new OnClickListener() {
 			
 			@Override

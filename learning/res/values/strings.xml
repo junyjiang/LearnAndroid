@@ -10,6 +10,7 @@
     <string name="abort">关于</string>
     <string name="call_other">调起其他</string>
     <string name="send">发送短信</string>
+    <string name="radio">RadioAndCheckBox</string>
     <string name="male">男</string>
     <string name="female">女</string>
     <string name="swim">游泳</string>

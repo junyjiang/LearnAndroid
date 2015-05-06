@@ -39,5 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/read"/>"
-
+       <Button 
+           android:id="@+id/startPro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
 </LinearLayout>
