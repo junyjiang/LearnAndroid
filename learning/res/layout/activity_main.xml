@@ -24,6 +24,14 @@
         android:paddingLeft="10dip"
         android:layout_below="@+id/EditText01"
         />
+        <Button 
+        android:id="@+id/startHandlerTest"
+        android:background="#aa0000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="@string/Click_Me"
+        />
         
 
 </RelativeLayout>

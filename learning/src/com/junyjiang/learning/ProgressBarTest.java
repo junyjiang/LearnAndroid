@@ -1,6 +1,7 @@
 package com.junyjiang.learning;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -35,6 +36,12 @@ public class ProgressBarTest extends Activity{
 					secBar.setVisibility(View.VISIBLE);
 				}
 				i= i + 10;
+				if(i>100){
+					Intent intent =new Intent();
+					intent.setClass(ProgressBarTest.this, ListViewTest.class);
+					startActivity(intent);
+				}
+				
 			}
 		});
 	}

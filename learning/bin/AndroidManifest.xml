@@ -26,6 +26,9 @@
         <activity android:name="com.junyjiang.learning.OtherActivity"/>
         <activity android:name="com.junyjiang.learning.RadioTest"/>
         <activity android:name="com.junyjiang.learning.ProgressBarTest"/>
+        <activity android:name="com.junyjiang.learning.ListViewTest"/>
+        <activity android:name="com.junyjiang.learning.HandlerTest"/>
+        
     </application>
 
 </manifest>

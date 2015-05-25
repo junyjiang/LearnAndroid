@@ -18,6 +18,8 @@
     <string name="read">读书</string>
     <string name="listviewLinearLayout">listviewLinearLayout</string>
     <string name="list">list</string>
+    <string name="StartHandler">Start</string>
+    <string name="EndHandler">EndHandler</string>
     
 
 </resources>

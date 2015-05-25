@@ -25,40 +25,48 @@ public final class R {
     }
     public static final class id {
         public static final int EditText01=0x7f080000;
-        public static final int TextView01=0x7f080002;
-        public static final int action_settings=0x7f080012;
+        public static final int EndHandler=0x7f080006;
+        public static final int StartHandler=0x7f080005;
+        public static final int TextView01=0x7f080003;
+        public static final int action_settings=0x7f080017;
         public static final int btClick=0x7f080001;
-        public static final int btOther=0x7f080003;
-        public static final int btSend=0x7f080005;
-        public static final int femaleButton=0x7f08000c;
-        public static final int firstProgressBar=0x7f080007;
-        public static final int genderGroup=0x7f08000b;
-        public static final int listviewLinearLayout=0x7f080004;
-        public static final int maleButton=0x7f08000d;
-        public static final int progressbt=0x7f080009;
-        public static final int radiotextview=0x7f08000a;
-        public static final int read=0x7f080010;
-        public static final int run=0x7f08000f;
-        public static final int secondProgressBar=0x7f080008;
-        public static final int startPro=0x7f080011;
-        public static final int startRadioActivity=0x7f080006;
-        public static final int swim=0x7f08000e;
+        public static final int btOther=0x7f080004;
+        public static final int btSend=0x7f080008;
+        public static final int femaleButton=0x7f08000f;
+        public static final int firstProgressBar=0x7f08000a;
+        public static final int genderGroup=0x7f08000e;
+        public static final int listviewLinearLayout=0x7f080007;
+        public static final int maleButton=0x7f080010;
+        public static final int progressbt=0x7f08000c;
+        public static final int radiotextview=0x7f08000d;
+        public static final int read=0x7f080013;
+        public static final int run=0x7f080012;
+        public static final int secondProgressBar=0x7f08000b;
+        public static final int startHandlerTest=0x7f080002;
+        public static final int startPro=0x7f080014;
+        public static final int startRadioActivity=0x7f080009;
+        public static final int swim=0x7f080011;
+        public static final int user_ip=0x7f080016;
+        public static final int user_name=0x7f080015;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_new=0x7f030001;
-        public static final int listviewmain=0x7f030002;
-        public static final int other_activity=0x7f030003;
-        public static final int progressbar=0x7f030004;
-        public static final int radio=0x7f030005;
-        public static final int user=0x7f030006;
+        public static final int handler_test=0x7f030002;
+        public static final int listviewmain=0x7f030003;
+        public static final int other_activity=0x7f030004;
+        public static final int progressbar=0x7f030005;
+        public static final int radio=0x7f030006;
+        public static final int user=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;
     }
     public static final class string {
         public static final int Click_Me=0x7f050003;
+        public static final int EndHandler=0x7f050012;
         public static final int Start=0x7f050004;
+        public static final int StartHandler=0x7f050011;
         public static final int abort=0x7f050006;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;

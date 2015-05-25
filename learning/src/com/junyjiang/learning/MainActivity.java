@@ -15,6 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	private EditText EditText01;
 	private Button BtClick;
+	private Button StartHandlerTest;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,18 @@ public class MainActivity extends Activity {
 		EditText01 = (EditText) findViewById(R.id.EditText01);
 		BtClick = (Button) findViewById(R.id.btClick);
 		BtClick.setText(R.string.Click_Me);
+		StartHandlerTest = (Button)findViewById(R.id.startHandlerTest);
+		StartHandlerTest.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, HandlerTest.class);
+				startActivity(intent);
+				
+			}
+		});
 		// Ìí¼Óclick¼àÌý
 		BtClick.setOnClickListener(new OnClickListener() {
 
